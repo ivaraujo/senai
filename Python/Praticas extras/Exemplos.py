@@ -1,9 +1,20 @@
-texto = input("Entre com uma sequência de números: ")
-numeros = texto.split()
-soma = 0
+txt = input("Entre com uma palavra ou frase: ")
+txt = txt.lower()
+txt = txt.replace(" ", "")
 
-for n in numeros:
-    soma = soma + int(n)
-    media = soma / len(numeros)
+i = 0
+j = len(txt) - 1
 
-print("A média é: ", format(media, ".2f"))
+palindromo = True
+while i < j:
+    if txt[i] != txt[j]:
+        palindromo = False
+        break
+    else:
+        i = i + 1
+        j = j - 1
+
+if palindromo:
+    print("Palíndromo")
+else:
+    print("Não palíndromo")
