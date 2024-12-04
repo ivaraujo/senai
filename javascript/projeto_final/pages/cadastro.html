@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/cadastro.css">
+</head>
+<body>
+    <nav id="navg">
+        <h1>
+            Alagoinhas Preços
+        </h1>
+        <a id="voltar" href="/index.html">Home</a>
+    </nav>
+
+    <section class="content">
+        <div class="formulario">
+            <form action="cadastrar">
+                <label for="codbarras">Código de barras:</label>
+                <input type="text" id="codbarras" name="codbarras" placeholder="000000">
+
+                <label for="nomep">Nome do produto:</label>
+                <input type="text" id="nomep" name="nomep" placeholder="Áçucar">
+
+                <label for="marcap">Marca do produto:</label>
+                <input type="text" id="marcap" name="marcap" placeholder="Cristal">
+
+                <label for="precop">Preço do produto:</label>
+                <input type="text" id="precop" name="precop" placeholder="0.00">
+
+                <label for="volumep">Volume do produto:</label>
+                <input type="text" id="volumep" name="volumep" placeholder="1kg">
+
+                <label for="nomemercado">Nome do mercado:</label>
+                <input type="text" id="nomemercado" name="nomemercado" placeholder="Tamarineiro">
+                <div id="caixaButton">
+                    <button id="registrar">Registrar</button>
+                </div>                
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+<script src="/scripts/script.js"></script>
+
+</html>

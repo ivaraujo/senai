@@ -1,0 +1,40 @@
+        -- PAGE CADASTRO --
+        Font: Poppins
+
+        Formulário:
+        - Código de barras
+        - Nome do produto
+        - Marca do produto
+        - Preço do produto
+        - Volume do produto
+        - Nome do mercado
+
+        <body>
+            --Barra superior --ok
+                --Botao voltar(lado esquerdo)    --ok
+            --Titulo --ok
+            --Formulário --ok
+            --Botão de registrar --ok
+            --Barra de rodapé --ok
+        </body>
+
+-- PAGE INDEX --
+
+Tabela:
+- Produto
+- Marca
+- Preço
+- Quantidade
+- Mercado
+
+<body>
+    --Barra superior
+        --Botao novo produto(lado direito)
+    --Logo
+    --Barra de filtros
+        --Filtro produto
+        --Filtro mercado
+        --Botão de pesquisa
+    --Tabela
+    --Barra de rodapé
+</body>
