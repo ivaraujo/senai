@@ -6,8 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 #navg{
     background-color: rgb(219, 80, 80);
     display: flex;
@@ -23,7 +21,8 @@
     & #voltar{
         text-decoration: none;
         color: white;
-        cursor: poi;
+        cursor: pointer;
+
     }
 }
 
@@ -43,27 +42,55 @@
 
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
 form{
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid lightgray;
+    border: none;
     border-radius: 10px;
     box-shadow: 12px 12px 2px 1px rgba(57, 57, 61, 0.2);
+    background-color: rgb(56, 56, 56);
+    color: white;
 
     & button{
         padding: 10px;
         width: 100px;
-        color: white;
-        background-color: black;
+        color: black;
+        background-color: white;
         border: none;
         border-radius: 10px;     
         cursor: pointer;   
         
     }
     button:hover{
-        background-color:  rgb(219, 80, 80);
+        background-color: rgb(219, 80, 80);
+        color: white;
         
+    }
+
+    & input{
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        height: 20px;
+        padding: 6px;
+    }
+
+    & h1{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+
     }
 }
 

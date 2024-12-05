@@ -16,8 +16,11 @@
     </nav>
 
     <section class="content">
+        <div class="logo"><img src="/img/logo.png" alt="compras" width="300" height="300"></div>
         <div class="formulario">
-            <form action="cadastrar">
+            <form>
+                <div><h1>Cadastrar</h1></div>
+                
                 <label for="codbarras">Código de barras:</label>
                 <input type="text" id="codbarras" name="codbarras" placeholder="000000">
 
@@ -34,9 +37,9 @@
                 <input type="text" id="volumep" name="volumep" placeholder="1kg">
 
                 <label for="nomemercado">Nome do mercado:</label>
-                <input type="text" id="nomemercado" name="nomemercado" placeholder="Tamarineiro">
+                <input type="text" id="mercadop" name="mercadop" placeholder="Tamarineiro">
                 <div id="caixaButton">
-                    <button id="registrar">Registrar</button>
+                    <button id="register">Registrar</button>
                 </div>                
             </form>
         </div>
@@ -46,6 +49,7 @@
         <p>Todos os direitos reservados.</p>
     </footer>
 </body>
-<script src="/scripts/script.js"></script>
+<script src="/scripts/conexao.js"></script>
+<script src="/scripts/cadastro.js"></script>
 
 </html>
