@@ -3,6 +3,11 @@ import mysql from 'mysql2/promise';
 import path from 'path';
 
 const app = express();
+// Caso tenham duvida sobre qualquer estrutura utilizada, utilize-se da documentação
+// tanto do NodeJS (você também pode executar o node no terminal e testa cada uma)
+// Quanto do ExpressJS e da biblioteca MySQL2, os dois são facilmente encontrados no google
+// MySQL2 -> https://sidorares.github.io/node-mysql2/pt-BR/docs
+// Express -> https://expressjs.com/en/starter/static-files.html
 
 // Configura o Express para fazer encode de dados vindos do front-end
 app.use(express.urlencoded({ extended: true }));

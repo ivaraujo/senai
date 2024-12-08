@@ -7,20 +7,23 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="/css/cadastro.css">
 </head>
+
 <body>
     <nav id="navg">
         <h1>
             Alagoinhas Preços
         </h1>
-        <a id="voltar" href="/index.html">Home</a>
+        <a id="voltar" href="../index.html">Home</a>
     </nav>
 
     <section class="content">
-        <div class="logo"><img src="/img/logo.png" alt="compras" width="300" height="300"></div>
+        <div class="logo"><img src="img/logo.png" alt="compras" width="300" height="300"></div>
         <div class="formulario">
-            <form>
-                <div><h1>Cadastrar</h1></div>
-                
+            <form action="/cadastrar" method="post">
+                <div>
+                    <h1>Cadastrar</h1>
+                </div>
+
                 <label for="codbarras">Código de barras:</label>
                 <input type="text" id="codbarras" name="codbarras" placeholder="000000">
 
@@ -39,8 +42,8 @@
                 <label for="nomemercado">Nome do mercado:</label>
                 <input type="text" id="mercadop" name="mercadop" placeholder="Tamarineiro">
                 <div id="caixaButton">
-                    <button id="register">Registrar</button>
-                </div>                
+                    <button id="register" type="submit">Registrar</button>
+                </div>
             </form>
         </div>
     </section>
